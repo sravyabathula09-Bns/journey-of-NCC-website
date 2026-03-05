@@ -1,0 +1,54 @@
+body{
+font-family:sans-serif;
+}
+
+.navbar{
+    background: linear-gradient(90deg,#0f2027,#203a43,#2c5364);
+    padding: 12px 30px;
+    border-bottom: 3px solid #ffc107;
+    z-index: 1000;
+}
+
+.hero{
+height: 100vh;
+background-image:url("images/backimg.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero-content{
+background-color:gray;
+padding:30px;
+border-radius:10px;
+}
+
+.section-space{
+    padding:80px;
+}
+
+#training img{
+transition:0.5s;
+}
+
+#training img:hover{
+transform:scale(1.05);
+}
+ 
+
+.gallery{
+background-color:white;
+padding:80px 20px;
+}
+
+.gallery img{
+transition:0.5s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}

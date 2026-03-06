@@ -1,13 +1,14 @@
 body{
 font-family:sans-serif;
 }
-
 .navbar{
     background: linear-gradient(90deg,#0f2027,#203a43,#2c5364);
     padding: 12px 30px;
     border-bottom: 3px solid #ffc107;
     z-index: 1000;
 }
+
+
 
 .hero{
 height: 100vh;
@@ -43,6 +44,7 @@ transform:scale(1.05);
 .gallery{
 background-color:white;
 padding:80px 20px;
+margin: 20px;
 }
 
 .gallery img{

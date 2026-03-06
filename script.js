@@ -1,15 +1,16 @@
-// runs when the webpage fully loads 
+// Runs when the webpage fully loads
 window.onload = function(){
 
-//shows welcome popup message 
-alert("Welcome to my NCC Journey website");
+// Shows welcome popup message
+alert("Welcome to My first web page of NCC journey");
 
-};
-//function to scroll to about section
+}
+
+// Function to scroll to About section
 function scrollContent(){
 
 document.getElementById("about").scrollIntoView({
-behavior:"smooth" //smooth scrooling 
+behavior:"smooth"  // smooth scrolling effect
 });
 
 }
